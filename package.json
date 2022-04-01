@@ -6,11 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export -o ./dist",
+    "export": "next build",
     "test": "jest"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.6.0",
+    "@netlify/plugin-nextjs": "^4.2.8",
     "@svgr/webpack": "^5.5.0",
     "@types/js-yaml": "^4.0.0",
     "date-fns": "^2.19.0",
