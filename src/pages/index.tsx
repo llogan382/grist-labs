@@ -3,8 +3,12 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import { useEffect } from "react";
+
 
 export default function Index() {
+
+
   return (
     <Layout>
       <BasicMeta url={"/"} />
