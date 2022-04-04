@@ -1,5 +1,5 @@
 backend:
-  repo: git-gateway
+  name: git-gateway
   branch: main
 site_domain: cms.netlify.com
 base_url: https://sparkly-stardust-16fb0a.netlify.app/
