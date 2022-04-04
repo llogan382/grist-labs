@@ -20,6 +20,7 @@ export default function BasicMeta({
       <title>
         {title ? [title, config.site_title].join(" | ") : config.site_title}
       </title>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       <meta
         name="description"
         content={description ? description : config.site_description}
