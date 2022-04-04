@@ -1,7 +1,7 @@
 {
   "base_url": "https://sparkly-stardust-16fb0a.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "site_title": "Demo Site with NextJS and Netlify",
+  "site_description": "See how much you can do. ",
   "site_keywords": [
     {
       "keyword": "Next.js"
