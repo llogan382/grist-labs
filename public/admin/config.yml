@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: master
+  repo: git-gateway
+  branch: main
+site_domain: cms.netlify.com
+base_url: https://sparkly-stardust-16fb0a.netlify.app/
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
