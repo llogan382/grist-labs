@@ -21,6 +21,7 @@ export default function Index({ allPosts }) {
         </Head>
         <article>
           <h1>{title}</h1>
+          {console.log('rebuild')}
           <HomeContent />
           <ul>
             {cats.map((cat, k) => (
